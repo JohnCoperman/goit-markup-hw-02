@@ -22,7 +22,9 @@ body {
 .link {
       text-decoration: none;
 }
+
 /* ---logo--- */
+
 .logo-f, .logo-l {
       font-family: 'Raleway', sans-serif;
       font-style: normal;
@@ -41,6 +43,7 @@ body {
 .r-part-scnd {
       color: var(--color-white)
 }
+
 /* ---^^^^--- */
 
 .title {
@@ -49,11 +52,27 @@ body {
       letter-spacing: 0.03em;
 }
 
+.btn {
+      font-family: inherit;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+}
+
+.btn:hover, .btn:focus {
+      color: var(--color-white);
+      background-color: var(--zeema-blue);
+      cursor: pointer;
+}
+
+.link.menu-link.current {
+      color: var(--zeema-blue)
+}
+
 /*---------------Menu-----------------*/
 
-.menu {}
+/* .menu {} */
 
-.menu-nav {}
+/* .menu-nav {} */
 
 .menu-link {
       font-weight: 500;
@@ -85,7 +104,7 @@ body {
       background-color: var(--dark-theme);
 }
 
-.adress {}
+/* .adress {} */
 
 .adress-map {
       color: var(--color-white);
@@ -109,23 +128,16 @@ body {
 }
 
 .hero-btn {
-      font-family: inherit;
       font-weight: 700;
       font-size: var(--medium-text);
       line-height: 1.88;
       letter-spacing: 0.06em;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      border-radius: 4px;
-      color: var(--color-white);
       background-color: var(--zeema-blue);
-}
-
-.hero-btn:hover, .hero-btn:focus {
-      cursor: pointer;
+      color: var(--color-white);
 }
 
 /* -------------------Tips--------------------*/
-.tips-title {}
+/* .tips-title {} */
 
 .tips-list-title {
       font-size: var(--small-text);
@@ -141,27 +153,28 @@ body {
 }
 
 /* -------------------Y-do-------------------- */
-.y-do {}
+
+/* .y-do {}
 
 .y-do-title {}
 
 .y-do-list {}
 
-.y-do-list-img {}
+.y-do-list-img {} */
 
 /*--------------------Team---------------------*/
 .team {
       background-color: #F5F4FA;
 }
-.team-title {}
+/* .team-title {}
 
-.team-list {}
+.team-list {} */
 
 .team-photos {
       background-color: var(--color-white);
 }
 
-.team-members {}
+/* .team-members {} */
 
 .team-names {
       font-weight: 500;
@@ -184,41 +197,27 @@ body {
       background-color: #F5F5F5;
 }
 
-.tabs {}
+/* .tabs {}
 
-.filters-itm {}
+.filters-itm {} */
 
 .filters-btn {
       background-color: #F5F4FA;
-      font-family: inherit;
       font-weight: 500;
       font-size: var(--medium-text);
       line-height: 1.62;
       letter-spacing: 0.03em;
-      border-radius: 4px;
       color: var(--color-onix);
 }
 
-.filters-btn:hover,
-.filters-btn:focus {
-      background-color: var(--zeema-blue);
-      color: var(--color-white);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      border-radius: 4px;
-      cursor: pointer;
-}
-
-      
-}
-
-.projs {}
+/* .projs {} */
 
 .projs-itm {
       background: var(--color-white);
       border: 1px solid #EEEEEE;
 }
 
-.projs-itm-img {}
+/* .projs-itm-img {} */
 
 .projs-itm-title {
       font-size: 18px;
