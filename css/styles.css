@@ -54,13 +54,13 @@ body {
 
 .btn {
       font-family: inherit;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       border-radius: 4px;
 }
 
 .btn:hover, .btn:focus {
       color: var(--color-white);
       background-color: var(--zeema-blue);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       cursor: pointer;
 }
 
