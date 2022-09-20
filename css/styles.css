@@ -4,13 +4,15 @@
       --color-white: #FFFFFF;
       --color-gray: #757575;
       --color-onix: #212121;
-      --small-text: 14px;
       --medium-text: 16px;
 }
 
 body {
       font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.03em;
       color: var(--color-onix);
+      background-color: var(--color-white);
 }
 
 /* ---------------General-styles-----------------*/
@@ -23,33 +25,25 @@ body {
       text-decoration: none;
 }
 
-/* ---logo--- */
-
-.logo-f, .logo-l {
+.logo {
       font-family: 'Raleway', sans-serif;
-      font-style: normal;
       font-weight: 700;
       font-size: 26px;
-      line-height: 1.92;
-      letter-spacing: 0.03em;
+      line-height: 1.19;
+      color: #000000;
 }
 
-.l-part {
+.logo .logo-accent {
       color: var(--zeema-blue);
 }
-.r-part-frst {
-      color: #000;
-}
-.r-part-scnd {
-      color: var(--color-white)
+
+.logo.logo-last {
+      color: var(--color-white);
 }
 
-/* ---^^^^--- */
-
-.title {
+.section-title {
       font-size: 36px;
       line-height: 1.66;
-      letter-spacing: 0.03em;
 }
 
 .btn {
@@ -86,7 +80,7 @@ body {
       color:var(--zeema-blue);
 }
 
-.menu-contacts {
+.contacts-link {
       font-weight: 500;
       font-size: var(--small-text);
       line-height: 1.14;
@@ -94,7 +88,7 @@ body {
       color: var(--color-gray);
 }
 
-.menu-contacts:hover, .menu-contacts:focus {
+.contacts-link:hover, .contacts-link:focus {
       color: var(--zeema-blue);
 }
 
@@ -107,19 +101,28 @@ body {
 /* .adress {} */
 
 .adress-map {
+      font-style: normal;
       color: var(--color-white);
+      line-height: 1.71;
 }
 
 .adress-link {
+      font-style: normal;
+      line-height: 1.71;
       color: rgba(255, 255, 255, 0.6);
 }
+.adress-link:hover, .adress-link:focus {
+      color: var(--zeema-blue);
+}
+
 /* ----------------------------HOME---------------------------*/
 
 .hero {
       background-color: var(--dark-theme);
 }
 
-.hero-propos {
+.hero-title {
+      text-transform: uppercase;
       font-weight: 900;
       font-size: 44px;
       line-height: 1.36;
@@ -136,39 +139,36 @@ body {
       color: var(--color-white);
 }
 
-/* -------------------Tips--------------------*/
-/* .tips-title {} */
+/* -------------------work--------------------*/
 
-.tips-list-title {
+.work-list-title {
       font-size: var(--small-text);
       line-height: 1.14;
-      letter-spacing: 0.03em;
 }
 
-.tips-text {
+.work-text {
       font-size: var(--small-text);
       line-height: 1.71;
-      letter-spacing: 0.03em;
       color: var(--color-gray);
 }
 
-/* -------------------Y-do-------------------- */
+/* -------------------features-------------------- */
 
-/* .y-do {}
+/* .features {}
 
-.y-do-title {}
+.features-title {}
 
-.y-do-list {}
+.features-list {}
 
-.y-do-list-img {} */
+.features-list-img {} */
 
 /*--------------------Team---------------------*/
+
 .team {
       background-color: #F5F4FA;
 }
-/* .team-title {}
 
-.team-list {} */
+/* .team-list {} */
 
 .team-photos {
       background-color: var(--color-white);
@@ -180,14 +180,11 @@ body {
       font-weight: 500;
       font-size: var(--medium-text);
       line-height: 1.18;
-      letter-spacing: 0.03em;
 }
 
 .team-text {
-      font-weight: 400;
       font-size: var(--medium-text);
       line-height: 1.18;
-      letter-spacing: 0.03em;
       color: var(--color-gray);
 }
 
@@ -206,29 +203,27 @@ body {
       font-weight: 500;
       font-size: var(--medium-text);
       line-height: 1.62;
-      letter-spacing: 0.03em;
       color: var(--color-onix);
 }
 
-/* .projs {} */
+/* .project-list {} */
 
-.projs-itm {
+.project {
       background: var(--color-white);
       border: 1px solid #EEEEEE;
 }
 
-/* .projs-itm-img {} */
+/* .projs-img {} */
 
-.projs-itm-title {
+.project-title {
       font-size: 18px;
       line-height: 2;
       letter-spacing: 0.06em;
       color: var(--color-onix);
 }
 
-.projs-itm-text {
+.project-text {
       font-size: var(--medium-text);
       line-height: 1.88;
-      letter-spacing: 0.03em;
       color: var(--color-gray);
 }
