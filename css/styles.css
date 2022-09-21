@@ -154,13 +154,19 @@ body {
 
 /* -------------------features-------------------- */
 
-/* .features {}
+/* .features {} */
 
-.features-title {}
+.features-list-title {
+      text-transform: uppercase;
+      line-height: 1.14;
+}
 
-.features-list {}
+.features-list-text  {
+      line-height: 1.71;
+      color: var(--color-gray);
+}
 
-.features-list-img {} */
+/* .features-list-img {} */
 
 /*--------------------Team---------------------*/
 
@@ -194,9 +200,9 @@ body {
       background-color: #F5F5F5;
 }
 
-/* .tabs {}
+/* .tabs {} */
 
-.filters-itm {} */
+/* .filters-itm {} */
 
 .filters-btn {
       background-color: #F5F4FA;
