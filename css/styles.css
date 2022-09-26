@@ -5,7 +5,8 @@
       --color-gray: #757575;
       --color-onix: #212121;
       --medium-text: 16px;
-      --gaps:30px;
+      --gaps-small: 30px;
+      --gaps-medium: 50px;
       --top-distance: 94px;
 }
 
@@ -90,7 +91,6 @@ img {
 
 .menu {
       border-bottom: 1px solid #ECECEC;
-      
       display: flex;
       justify-content: center;
 }
@@ -122,24 +122,20 @@ img {
 }
 
 .menu-link-list {
-      column-gap: 50px;
+      column-gap:var(--gaps-medium);
 }
 
 .menu-link:hover, .menu-link:focus {
       color:var(--zeema-blue);
 }
 
-.contacts-list {
+.menu-contacts-list {
       align-items: center;
-      gap:50px;
+      column-gap: var(--gaps-medium);
+      margin-left: auto;
 }
 
-.contacts-list:first-child {
-      column-gap: 50px;
-}
-
-
-.link.contacts-link {
+.link.menu-contacts-link {
       font-weight: 500;
       font-size: var(--small-text);
       line-height: 1.14;
@@ -148,7 +144,7 @@ img {
       padding: 32px 0;
 }
 
-.contacts-link:hover, .contacts-link:focus {
+.menu-contacts-link:hover, .menu-contacts-link:focus {
       color: var(--zeema-blue);
 }
 
@@ -224,8 +220,8 @@ img {
       background-color: var(--zeema-blue);
       color: var(--color-white);
       min-width: 216px;
-      height: 50px;
-      margin-top: var(--gaps);
+      height:var(--gaps-medium);
+      margin-top: var(--gaps-small);
  }          /* ^ to mentor */
 
 /* -------------------features-------------------- */
@@ -239,7 +235,7 @@ img {
 
 .features-list {
       /* align-items:center; */
-      column-gap: var(--gaps);
+      column-gap: var(--gaps-small);
 }
 
 .features-list li {
@@ -276,8 +272,8 @@ img {
 .work-list {
       
       
-      gap: var(--gaps);
-      margin-top: 50px;
+      gap: var(--gaps-small);
+      margin-top:var(--gaps-medium);
       margin-bottom: var(--top-distance);
 }
 /* .work-text {
@@ -303,8 +299,8 @@ img {
 /* .team-title {} */
 
 .team-list {
-      column-gap: var(--gaps);
-      margin-top: 50px;
+      column-gap: var(--gaps-small);
+      margin-top:var(--gaps-medium);
 
 }
 
@@ -319,7 +315,7 @@ img {
 /* .team-members {} */
 
 .team-member-about {
-      padding: var(--gaps) 62px;
+      padding: var(--gaps-small) 62px;
 }
 
 .team-names {
@@ -355,7 +351,7 @@ img {
       display: flex;
       justify-content: center;
       column-gap: 8px;
-      margin-bottom: 50px;
+      margin-bottom: var(--gaps-medium);
 }
 
 .filters-btn {
@@ -374,7 +370,7 @@ img {
       
       flex-wrap: wrap;
       justify-content: center;
-      gap: var(--gaps);
+      gap: var(--gaps-small);
 }
 
 .project {
